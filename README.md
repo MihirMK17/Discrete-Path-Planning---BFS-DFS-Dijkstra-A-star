@@ -32,12 +32,16 @@ Dijkstra's algorithm is used to find the shortest path from a start node to all 
 ### Avoid-East Cost
 
 This cost function prioritizes paths that avoid moving in the eastward direction.
-![Dijkstra_westcost_west_goal](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/2dfa3b6d-9c55-4dbc-acd0-cc9fdc166a17)
+![Dijkstra_westCost](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/07412c47-e681-4fe7-8a56-6285d7566a86)
+![Dijkstra_westcost_west_goal](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/82f99b53-702f-4ced-905c-bbc0ee896e86)
 
 
 ### Avoid-West Cost
 
 This cost function prioritizes paths that avoid moving in the westward direction.
+![Dijkstra_eastCost](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/7d37c016-3286-4085-b8cd-60917990ddfd)
+![Dijkstra_eastCost_westgoal](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/6bcf20be-0c46-434e-a604-75be73d3da73)
+
 
 ## A* Algorithm
 
@@ -46,10 +50,19 @@ A* is a pathfinding and graph traversal algorithm, which is used to find the sho
 ### Manhattan Distance Heuristic
 
 Manhattan distance is the distance between two points measured along axes at right angles. It is computed as the sum of the absolute differences of their coordinates.
+![aStar_Manhatten_small](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/b014eeb2-6137-418f-87f5-6e1abb1c0106)
+![aStar_Manhatten](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/9514fdad-250c-4381-a45a-180a836643b9)
+![aStar_Manhatten_bigMaze](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/e3b68c46-525a-4698-af89-0ed9ef65850f)
+
+
 
 ### Euclidean Distance Heuristic
 
 Euclidean distance represents the shortest distance between two points in a plane. It is computed using the Pythagorean theorem.
+![aStar_Eucildean_small](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/82fa2bce-cad6-431a-967c-265dcd7aebde)
+![aStar_Euclidean](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/0eea47b9-40dd-4839-bce7-8ab2a7c7a6bb)
+![aStar_Euclidean_bigMaze](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/7df0c219-078d-43af-af1e-63ae00d95fed)
+
 
 ---
 
