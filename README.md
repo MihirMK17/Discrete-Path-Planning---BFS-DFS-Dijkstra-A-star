@@ -16,6 +16,8 @@ This repository contains implementations of various discrete path planning algor
 ## BFS (Breadth-First Search)
 
 Breadth-First Search is a simple algorithm to traverse through nodes in a graph. It visits nodes level by level.
+![Breadth_First_Search](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/4f3d6d52-b37c-43fc-a034-db05b57aa479)
+
 
 ## DFS (Depth-First Search)
 
