@@ -12,6 +12,7 @@ This repository contains implementations of various discrete path planning algor
 - [A* Algorithm](#a-algorithm)
   - [Manhattan Distance Heuristic](#manhattan-distance-heuristic)
   - [Euclidean Distance Heuristic](#euclidean-distance-heuristic)
+- [Explanation of Files](#explanation-of-files)
 
 ## BFS (Breadth-First Search)
 Breadth-First Search is a simple algorithm to traverse through nodes in a graph. It visits nodes level by level.
