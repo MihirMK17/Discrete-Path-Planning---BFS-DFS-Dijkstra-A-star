@@ -22,6 +22,8 @@ Breadth-First Search is a simple algorithm to traverse through nodes in a graph.
 ## DFS (Depth-First Search)
 
 Depth-First Search is an algorithm to traverse a graph or tree. It visits nodes by diving deeper into the graph before backtracking.
+![Depth_First_Search](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/ee51ed20-3537-478b-bb55-a15aa124dddf)
+
 
 ## Dijkstra's Algorithm
 
@@ -30,6 +32,8 @@ Dijkstra's algorithm is used to find the shortest path from a start node to all 
 ### Avoid-East Cost
 
 This cost function prioritizes paths that avoid moving in the eastward direction.
+![Dijkstra_westcost_west_goal](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/2dfa3b6d-9c55-4dbc-acd0-cc9fdc166a17)
+
 
 ### Avoid-West Cost
 
