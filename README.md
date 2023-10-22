@@ -37,27 +37,49 @@ This cost function prioritizes paths that avoid moving in the eastward direction
 - Cost of Path: 25875
   
 ![Dijkstra_westcost_west_goal](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/82f99b53-702f-4ced-905c-bbc0ee896e86)
-
+- Nodes visitedL 168
+- Cost of Path: 11871
+  
 ### Avoid-West Cost
 This cost function prioritizes paths that avoid moving in the westward direction.
 ![Dijkstra_eastCost](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/7d37c016-3286-4085-b8cd-60917990ddfd)
+- Nodes visited: 69
+- Cost of Path: 17027
+- 
 ![Dijkstra_eastCost_westgoal](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/6bcf20be-0c46-434e-a604-75be73d3da73)
+- Nodes visited: 250
+- Cost of Path: 55352
 
 ## A* Algorithm
-A* is a pathfinding and graph traversal algorithm, which is used to find the shortest path from a start node to a target node.
+A* is a pathfinding and graph traversal algorithm, which is used to find the shortest path from a start node to a target node. The cost is a sum of cost of the current node and the heuristic. The code has a container having initial node, a list containing no.of visited nodes and the heuristic function to compute the cost. It works similar to Dijkstra search. 
 
 ### Manhattan Distance Heuristic
 Manhattan distance is the distance between two points measured along axes at right angles. It is computed as the sum of the absolute differences of their coordinates.
 ![aStar_Manhatten_small](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/b014eeb2-6137-418f-87f5-6e1abb1c0106)
+- Nodes visited: 33
+- Cost of Path: 26
+
 ![aStar_Manhatten](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/9514fdad-250c-4381-a45a-180a836643b9)
+- Nodes visited: 145
+- Cost of Path: 68
+  
 ![aStar_Manhatten_bigMaze](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/e3b68c46-525a-4698-af89-0ed9ef65850f)
+- Nodes visited: 435
+- Cost of Path: 136
 
 ### Euclidean Distance Heuristic
 Euclidean distance represents the shortest distance between two points in a plane. It is computed using the Pythagorean theorem.
 ![aStar_Eucildean_small](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/82fa2bce-cad6-431a-967c-265dcd7aebde)
-![aStar_Euclidean](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/0eea47b9-40dd-4839-bce7-8ab2a7c7a6bb)
-![aStar_Euclidean_bigMaze](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/7df0c219-078d-43af-af1e-63ae00d95fed)
+- Nodes visited: 41
+- Cost of Path: 26
 
+![aStar_Euclidean](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/0eea47b9-40dd-4839-bce7-8ab2a7c7a6bb)
+- Nodes visited: 151
+- Cost of Path: 68
+  
+![aStar_Euclidean_bigMaze](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/7df0c219-078d-43af-af1e-63ae00d95fed)
+- Nodes visited: 440
+- Cost of Path: 136
 
 ---
 
