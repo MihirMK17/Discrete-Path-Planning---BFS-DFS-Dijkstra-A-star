@@ -28,11 +28,14 @@ The Depth First Search (DFS) algorithm implemented gives above result. The initi
 - Cost of Path: 130
 
 ## Dijkstra's Algorithm
-Dijkstra's algorithm is used to find the shortest path from a start node to all other nodes in a weighted graph.
+Dijkstra's algorithm is used to find the shortest path from a start node to all other nodes in a weighted graph. The code uses dictionaries to store parent-child relation in order to backtrack from goal to the initial node and obtains the actions by reversing the actions array. During forward search, Dijkstra is similar to BFS and explores all connceted nodes. But, unlike BFS, it only travels to the one which has the least cost to go.
 
 ### Avoid-East Cost
 This cost function prioritizes paths that avoid moving in the eastward direction.
 ![Dijkstra_westCost](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/07412c47-e681-4fe7-8a56-6285d7566a86)
+- Nodes visited: 242
+- Cost of Path: 25875
+  
 ![Dijkstra_westcost_west_goal](https://github.com/MihirMK17/Discrete-Path-Planning-BFS-DFS-Dijkstra-A-star/assets/123691876/82f99b53-702f-4ced-905c-bbc0ee896e86)
 
 ### Avoid-West Cost
