@@ -82,6 +82,15 @@ Euclidean distance represents the shortest distance between two points in a plan
 - Nodes visited: 440
 - Cost of Path: 136
 
+## Explanation of Files
+1. `bigMaze.py`: Contains information about a big grid world with obstacles and free spaces
+2. `mazemods.py`: The file contains functions to plot the maze, check for collisions, calculate costs using the various cost functions and draw paths in the maze environment
+3. `mediumMaze.py`: Contains information about a medium sized grid world with obstacles and free spaces
+4. `search.py`: Contains the implementation of the graph search algorithms. Uncomment the unwanted section of code in the `main()` function of the script to run the different types of algorithms. You need to set the initial node, goal node, and the type of maze you want to run in the main function accordingly
+5. `smallMaze.py`: Contains information about a small sized grid world with obstacles and free spaces
+6. `testGrid.py`: A customizable grid world to test out the algorithms
+
+
 ---
 
 Feel free to contribute or raise issues if you find any discrepancies in the implementations.
